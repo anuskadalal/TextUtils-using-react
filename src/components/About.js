@@ -32,36 +32,44 @@ export default function About() {
   <div className="accordion-item">
     <h2 className="accordion-header">
       <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style={myStyle}>
-        Accordion Item #1
+        About Textutils
       </button>
     </h2>
     <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
       <div className="accordion-body" >
-        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      <strong>TextUtils is a powerful text manipulation tool </strong> that helps you process text efficiently. Whether you need to convert text to uppercase, lowercase, remove extra spaces, or perform other text-related transformations, TextUtils makes it easy and fast.
       </div>
     </div>
   </div>
   <div className="accordion-item">
     <h2 className="accordion-header">
       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style={myStyle}>
-        Accordion Item #2
+        TextUtils functionality
       </button>
     </h2>
     <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div className="accordion-body" >
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      TextUtils Features:
+✅ Convert text to Uppercase and Lowercase<br/>
+✅ Remove extra spaces and clean up messy text<br/>
+✅ Word & Character Count to analyze text<br/>
+✅ Copy modified text with a single click<br/>
+✅ Simple, fast, and mobile-friendly interface<br/>
+Why Use TextUtils? Whether you are a student, writer, or developer, TextUtils helps streamline your text formatting tasks effortlessly.
       </div>
     </div>
   </div>
   <div className="accordion-item">
     <h2 className="accordion-header">
       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style={myStyle}>
-        Accordion Item #3
+      Meet the Creator
       </button>
     </h2>
     <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div className="accordion-body" >
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      
+Hello! I am a BCA student passionate about web development. I created TextUtils as a simple yet powerful tool to help users manipulate text quickly and efficiently. This project is built using React.js, and I am continuously improving it by adding new features.
+If you have suggestions or feedback, feel free to reach out! 🚀
       </div>
     </div>
   </div>
